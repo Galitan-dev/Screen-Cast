@@ -1,0 +1,16 @@
+{
+  "name": "chromecast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chromecast-api": "^0.4.0",
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon"
+  }
+}

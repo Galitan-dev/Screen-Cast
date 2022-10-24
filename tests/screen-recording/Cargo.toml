@@ -1,0 +1,13 @@
+[package]
+name = "screen-recording"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+repng = "0.2.2"
+scrap = "0.5.0"
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+
